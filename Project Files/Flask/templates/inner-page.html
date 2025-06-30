@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Liver Care AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .tech-card {
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        .tech-card:hover {
+            transform: translateY(-5px);
+        }
+        .milestone-item {
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-heartbeat me-2"></i>
+                Liver Care AI
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/prediction">Prediction</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold mb-4">About Our Project</h1>
+                    <p class="lead">
+                        Revolutionizing Liver Care through Advanced Machine Learning
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Project Overview</h2>
+                    <p class="lead text-center mb-4">
+                        Liver cirrhosis is a life-threatening condition that often goes undetected until it reaches an advanced stage. 
+                        Our machine learning system transforms liver care by providing accurate, early-stage predictions using non-invasive clinical data.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Technology Stack</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card tech-card">
+                        <div class="card-body text-center p-4">
+                            <i class="fab fa-python fa-3x text-primary mb-3"></i>
+                            <h5>Python</h5>
+                            <p class="text-muted">Core programming language for ML development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card tech-card">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-brain fa-3x text-success mb-3"></i>
+                            <h5>Scikit-learn</h5>
+                            <p class="text-muted">Machine learning algorithms and tools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card tech-card">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-chart-bar fa-3x text-warning mb-3"></i>
+                            <h5>XGBoost</h5>
+                            <p class="text-muted">Advanced gradient boosting framework</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card tech-card">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-globe fa-3x text-info mb-3"></i>
+                            <h5>Flask</h5>
+                            <p class="text-muted">Web framework for interactive interface</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Milestones -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Project Milestones</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-search me-2"></i>Problem Definition & Understanding</h5>
+                        <p>Identified the critical need for early liver cirrhosis detection and defined business requirements.</p>
+                    </div>
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-database me-2"></i>Data Collection & Preparation</h5>
+                        <p>Collected and preprocessed liver patient datasets with clinical laboratory parameters.</p>
+                    </div>
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-chart-line me-2"></i>Exploratory Data Analysis</h5>
+                        <p>Performed comprehensive statistical and visual analysis of liver function biomarkers.</p>
+                    </div>
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-cogs me-2"></i>Model Building</h5>
+                        <p>Trained multiple ML algorithms including Random Forest, XGBoost, and SVM for comparison.</p>
+                    </div>
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-tachometer-alt me-2"></i>Performance Testing & Tuning</h5>
+                        <p>Evaluated models using multiple metrics and optimized hyperparameters for best performance.</p>
+                    </div>
+                    <div class="milestone-item">
+                        <h5><i class="fas fa-rocket me-2"></i>Model Deployment</h5>
+                        <p>Integrated the best performing model with Flask web framework for real-time predictions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Use Cases</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card tech-card">
+                        <div class="card-body p-4">
+                            <i class="fas fa-user-md fa-3x text-primary mb-3"></i>
+                            <h5>Clinical Decision Support</h5>
+                            <p>Assisting doctors in early, non-invasive diagnosis of liver cirrhosis using standard lab results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card tech-card">
+                        <div class="card-body p-4">
+                            <i class="fas fa-hospital fa-3x text-success mb-3"></i>
+                            <h5>Hospital Decision Systems</h5>
+                            <p>Supporting hospital workflows to prioritize high-risk patients for specialized care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card tech-card">
+                        <div class="card-body p-4">
+                            <i class="fas fa-laptop-medical fa-3x text-warning mb-3"></i>
+                            <h5>Telemedicine Integration</h5>
+                            <p>Empowering telemedicine platforms with smart liver health assessment capabilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SmartInternz Info -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">SmartInternz AI/ML Internship</h2>
+                    <p class="lead">
+                        This project was developed as part of the SmartInternz Artificial Intelligence and Machine Learning internship program, 
+                        focusing on practical applications of ML in healthcare diagnostics.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <a href="/prediction" class="btn btn-primary btn-lg">
+                            <i class="fas fa-stethoscope me-2"></i>
+                            Try Prediction
+                        </a>
+                        <a href="/" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-home me-2"></i>
+                            Back to Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
